@@ -1,0 +1,32 @@
+<h4 *ngIf="getError()" class="errorText">Your input is invalid. Try to give appropriate date.</h4>
+<div class="container">
+	<button class="btn btn-danger moodButton" role="button" data-bs-toggle="button" (click)="getWeather()">Show Mood</button>
+</div>
+
+<div  *ngIf="!getError()"  id="weather_wrapper">
+	<div class="weatherCard">
+	  <div class="currentTemp">
+		<span class="temp">{{temperature}}</span>
+		<span class="location">ANTALYA</span>
+	  </div>
+	  <div class="currentWeather">
+		<div class="container">
+			<ul [ngSwitch]="getMood()">
+				<li *ngSwitchCase='"Happy"'>
+					<div class="sunny"></div>
+				</li> 
+				<li *ngSwitchCase='"Sad"'>
+					<div class="rainy"></div>
+				</li>
+				<li *ngSwitchCase='"Cheerful"'>
+					<div class="rainbow"></div>
+				</li>
+				<li *ngSwitchCase='"Angry"'>
+					<div class="stormy"></div>
+				</li>
+			</ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+

@@ -1,0 +1,43 @@
+<div class="container" >
+  <div class="datePicker">
+    
+    <div class="text"> Choose date and time </div>
+
+  <input [(ngModel)]="dateInput" type="text" id="dateInput" placeholder="YYYY-MM-DD"/>
+
+    <p></p>
+
+    <select name="Hours" id="Hours" [(ngModel)]="timeInput" >
+      <option value="00:00">00</option>
+      <option value="01:00">01</option>
+      <option value="02:00">02</option>
+      <option value="03:00">03</option>
+      <option value="04:00">04</option>
+      <option value="05:00">05</option>
+      <option value="06:00">06</option>
+      <option value="07:00">07</option>
+      <option value="08:00">08</option>
+      <option value="09:00">09</option>
+      <option value="10:00">10</option>
+      <option value="11:00">11</option>
+      <option value="12:00">12</option>
+      <option value="13:00">13</option>
+      <option value="14:00">14</option>
+      <option value="15:00">15</option>
+      <option value="16:00">16</option>
+      <option value="17:00">17</option>
+      <option value="18:00">18</option>
+      <option value="19:00">19</option>
+      <option value="20:00">20</option>
+      <option value="21:00">21</option>
+      <option value="22:00">22</option>
+      <option value="23:00">23</option>
+  </select>
+
+    <p></p>
+
+    </div>
+
+</div>
+<app-moods [parentData1]="getDay(dateInput,timeInput)"></app-moods>
+
