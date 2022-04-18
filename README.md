@@ -1,5 +1,10 @@
 This is the website that I created with Angular. You can choose the date and time to see your mood.
-![picture](https://user-images.githubusercontent.com/100310188/163853582-cbf0b28d-42dd-4a7e-aaf7-207cd08c7326.png)
-![picture1](https://user-images.githubusercontent.com/100310188/163853566-eaf638b3-fedf-4803-9673-e4d30e9b359b.png)
-![picture2](https://user-images.githubusercontent.com/100310188/163853576-747a6759-0af7-4c51-a5f7-4b4eab983457.png)
+
+![picture](https://user-images.githubusercontent.com/100310188/163853933-be0ea093-ab14-4cf9-91f2-5ea27c273697.png)
+
+
+![picture1](https://user-images.githubusercontent.com/100310188/163853921-5a6e4ee4-5702-4511-bce2-4579bb4fe2d0.png)
+
+
+![picture2](https://user-images.githubusercontent.com/100310188/163853929-d7ee7260-b26d-4045-9f12-0ba9963e1f7b.png)
 
