@@ -6,7 +6,7 @@ import { MoodsComponent } from './moods/moods.component';
 
 const routes: Routes = [
   { path : '',  component: HomeComponent},
-  { path: 'showMood', component: MoodsComponent }
+  { path : 'showmood', component: MoodsComponent }
 ];
 
 @NgModule({
